@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConsoleAppDemo": {
+      "commandName": "Project",
+      "commandLineArgs": "foobar test",
+      "environmentVariables": {
+        "DemoRunMode": "simple1"
+      }
+    }
+  }
+}
