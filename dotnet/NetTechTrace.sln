@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetTechTrace", "NetTechTrac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{0691FDAC-7885-4B81-944B-C4A359931933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppDemo", "ConsoleAppDemo\ConsoleAppDemo.csproj", "{3699770F-E02B-40EB-AF8F-A83DCDD55D61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleAppDemo", "ConsoleAppDemo\ConsoleAppDemo.csproj", "{3699770F-E02B-40EB-AF8F-A83DCDD55D61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThirdPartyLibTest", "ThirdPartyLibTest\ThirdPartyLibTest.csproj", "{4F62E209-134D-4343-8156-B8A6E052B0D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{3699770F-E02B-40EB-AF8F-A83DCDD55D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3699770F-E02B-40EB-AF8F-A83DCDD55D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3699770F-E02B-40EB-AF8F-A83DCDD55D61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F62E209-134D-4343-8156-B8A6E052B0D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F62E209-134D-4343-8156-B8A6E052B0D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F62E209-134D-4343-8156-B8A6E052B0D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F62E209-134D-4343-8156-B8A6E052B0D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

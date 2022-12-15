@@ -1,0 +1,3 @@
+﻿Create a Windows Service using BackgroundService
+https://learn.microsoft.com/en-us/dotnet/core/extensions/windows-service
+

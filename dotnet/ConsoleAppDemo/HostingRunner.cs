@@ -29,7 +29,10 @@ namespace ConsoleAppDemo
             try
             {
                 var host = Host.CreateDefaultBuilder(args)
-                    .ConfigureLogging(builder => builder.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace))
+                    .ConfigureLogging(builder =>
+                    {
+                        builder.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+                    })
                     .ConfigureServices((hostContext, services) =>
                     {
                         services.AddHttpClient("")
